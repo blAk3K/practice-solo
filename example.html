@@ -1,0 +1,114 @@
+<html>
+    <link rel="stylesheet" href="example.css">
+  <head>
+    <title>Html Forms Demo</title>
+  </head>
+  <body>
+    <h1>Html Forms Demo</h1>
+    <section>
+      <h2>Simple Form</h2>
+      <form>
+        <label for="fname">First Name:</label> <br />
+        <input type="text" id="fname" name="fname" /> <br />
+        <label for="lname">Last Name:</label> <br />
+        <input type="text" id="lname" name="lname" /> <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section>
+      <h2>Form for cell phone, email and passwords</h2>
+      <form>
+        <!-- Cell number is required -->
+
+        <label for="cellnumber">Cell Number *</label> <br />
+        <input
+          type="number"
+          id="cellnumber"
+          name="cellnumber"
+          required
+        /><br /><br />
+
+        <label for="userEmail">Email: </label> <br />
+        <input type="email" id="userEmail" name="userEmail" /><br /><br />
+
+        <label for="password">Password: </label> <br />
+        <input type="password" id="password" name="password" /><br /><br />
+
+        <input type="checkbox" id="agreeToTerms" name="agreeToTerms" required />
+        <label for="agreeToTerms"> I agree to the terms of service</label>
+        <br />
+
+        <input type="submit" value="Click to Submit"/ >
+      </form>
+    </section>
+
+    <section>
+      <h2>Checkbox:</h2>
+      <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label> <br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label> <br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle1"> I have a boat</label> <br />
+
+        <input type="submit" />
+      </form>
+    </section>
+
+    <section>
+      <h2>Radio Button - Which language is your favorite so far?:</h2>
+      <form>
+        <input type="radio" id="html" name="favLanguage" value="HTML" />
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="favLanguage" value="CSS" />
+        <label for="css">CSS</label>
+
+        <br />
+        <input type="submit" />
+      </form>
+    </section>
+
+    <section>
+      <h2>Date:</h2>
+      <form>
+        <label for="flightDate">Flight date:</label>
+
+        <input
+          type="date"
+          id="flightDate"
+          name="flightDate"
+          value="2024-07-22"
+          min="2024-06-01"
+          max="2024-12-31"
+        />
+        <br />
+
+        <label for="review">Leave us a review</label> <br />
+        <textarea id="review" name="review" rows="10" cols="50"></textarea>
+
+        <input type="submit" value="Submit Date" />
+      </form>
+    </section>
+
+    <section>
+      <form>
+        <h2>Select</h2>
+        <label for="pet-select">Choose a pet:</label>
+
+        <select name="pet-select" id="pet-select">
+          <option value="">Please Select Pet from Dropdown</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="bird">Bird</option>
+          <option value="bunny">Bunny</option>
+          <option value="velociraptor">Velociraptor</option>
+        </select>
+
+        <input type="submit" />
+      </form>
+    </section>
+  </body>
+</html>

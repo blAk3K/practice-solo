@@ -1,0 +1,76 @@
+body {
+    background-color: rebeccapurple;
+  }
+  
+  *{
+    border: 1px solid black;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .item {
+    background-color: red;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    /* min-width: 75px; */
+  }
+  
+  #item1 {
+    height: 200px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inside{
+    font-size: 10px;
+  }
+  
+  #item2{
+    transition: height 2s, background-color 10s;
+    
+  }
+  
+  #item2:hover{
+    height:200px;
+    background-color: gold;
+  }
+  
+  .item:nth-child(2){
+    background-color: skyblue;
+  }
+  
+  #item3 {
+    height: 50px;
+  }
+  
+  /* Small version */
+  @media (max-width: 768px){
+  
+    body{
+      background-color: chocolate;
+    }
+  
+    li{
+      font-size: 18px;
+    }
+  
+    .container{
+      flex-direction: column;
+    }
+  
+    #item2{
+      background-color: hotpink;
+    }
+  
+  }
+  
+  
+  

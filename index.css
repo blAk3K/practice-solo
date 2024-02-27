@@ -1,0 +1,32 @@
+main{
+background-color: aqua;
+display: inline-block;
+margin: 30px;
+padding: 20px;
+
+}
+h2{
+    background-color: aqua;
+    border: 5px aqua;
+    /*padding: 15px*/
+}
+
+h3{
+color: blue
+
+
+}
+body{
+color: blue;
+background-color: blueviolet;
+
+
+}
+H1{
+ background-color: aqua;
+
+}
+nav{
+
+    background-color: black;
+}

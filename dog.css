@@ -1,0 +1,33 @@
+main{
+background-color: aqua;
+margin: 30px;
+padding: 25px;
+display: inline-block;
+}
+body{
+background-color: blueviolet;
+}
+
+h1{
+color:palevioletred;
+background-color: aqua
+
+}
+h2{
+
+    background-color: aqua;
+    color: palevioletred;
+}
+nav{
+
+    color: palevioletred;
+    background-color: black;
+   
+}
+h3{
+    color: palevioletred;
+}
+li{
+
+    color: palevioletred;
+}
